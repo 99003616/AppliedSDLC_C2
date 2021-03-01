@@ -17,17 +17,19 @@ Folder             | Description
 
 ## Contributors List and Summary
 
-PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
--------|---------|----------------|----------------|---------------|-------------|--------------
-`ABC` | 12345678  | Feature A, B etc    | X No     | X No   |X No   |X No     
-`DEF` | 12345678  | Feature C, D etc    | X No     | X No   |X No   |X No     
+PS No.     |     Name        |           Features          | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
+-----------|-----------------|-----------------------------|---------------|----------------|-------------|--------------
+`99003608` | Aakarsh Mehta   | Radar Chart Implementation  |  No           | No             |   4         | 4
+`99003709` | Digendra Sahu   | Analysis & Data Extraction  | Yes           | Yes            |   4         | 4
+`99003616` | Yash Jhajharia  | Auto-Mailer Implemenation   | Yes           | Yes            |   4         | 4
+`99003654` | Manzar Hussain  | Testing & Documentation     | No            | No             |   4         | 4
+`  
 
 ## Challenges Faced and How Was It Overcome
 
-1. ABC
-2. BCD
+1. How to share (.jpg) images using Auto-mailer. It was achieved using loop at the time of creation.
+2. Generating all the required radar-map in one go. It was done by using loop.
 3. ...
-4. ...
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
