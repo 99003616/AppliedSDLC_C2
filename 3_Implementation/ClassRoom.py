@@ -1,12 +1,14 @@
-from numpy import average
+# Importing all the necessary library
 import pandas as pd
 
+# Import all the excel files
 pre_test = pd.read_excel("pre_test.xlsx")
 pre_survey = pd.read_excel("pre_survey.xlsx")
 post_test = pd.read_excel("post_test.xlsx")
 post_survey = pd.read_excel("post_survey.xlsx")
 
 
+# Calculating the data which is required for implementation of radar graph
 def data_for_graph():
     post_test_LO = []
     post_survey_LO = []
@@ -14,13 +16,13 @@ def data_for_graph():
     pre_survey_LO = []
     consolidated_LO = []
     data = {}
-    for i in range(0, 10):
-        for j in range(4, 10):
+    for i in range(0, 10):  # iterates throw all the rows
+        for j in range(4, 10):  # iterated throw column
             post_test_LO.append(post_test.iloc[i, j])
             post_survey_LO.append(post_survey.iloc[i, j])
             pre_test_LO.append(pre_test.iloc[i, j])
             pre_survey_LO.append(pre_survey.iloc[i, j])
-        consolidated_LO.append(pre_survey_LO)
+        consolidated_LO.append(pre_survey_LO)  # appended the list into consolidated list
         consolidated_LO.append(pre_test_LO)
         consolidated_LO.append(post_survey_LO)
         consolidated_LO.append(post_test_LO)
@@ -30,9 +32,10 @@ def data_for_graph():
         pre_survey_LO = []
         data[post_test.iloc[i, 1]] = consolidated_LO
         consolidated_LO = []
-    return data
+    return data  # returning the result in the form of dictionaries
 
 
+# Function for getting the list of all PS number
 def get_PS():
     PS_list = []
     for i in range(0, 10):
@@ -40,6 +43,7 @@ def get_PS():
     return PS_list
 
 
+# average performance of the students in all the module
 def avg():
     avg_list = []
     pre_test_avg_list = []
@@ -56,10 +60,10 @@ def avg():
             post_test_sum += post_test.iloc[j, i]
             pre_survey_sum += pre_survey.iloc[j, i]
             pre_test_sum += pre_test.iloc[j, i]
-        post_survey_avg_list.append(post_survey_sum/10)
-        post_test_avg_list.append(post_test_sum/10)
-        pre_test_avg_list.append(pre_test_sum/10)
-        pre_survey_avg_list.append(pre_survey_sum/10)
+        post_survey_avg_list.append(post_survey_sum / 10)
+        post_test_avg_list.append(post_test_sum / 10)
+        pre_test_avg_list.append(pre_test_sum / 10)
+        pre_survey_avg_list.append(pre_survey_sum / 10)
 
     avg_list.append(pre_survey_avg_list)
     avg_list.append(pre_test_avg_list)
@@ -69,6 +73,7 @@ def avg():
     return avg_list
 
 
+# Sum of rows for calculating the average marks of the students
 def sum_of_row():
     res = []
     post_survey_sum = 0
@@ -100,6 +105,7 @@ def sum_of_row():
     return res
 
 
+# top five performers of the class
 def top_five(k):
     top5 = []
     sum_rows = sum_of_row()
@@ -110,11 +116,12 @@ def top_five(k):
     for i in range(len(sum_rows)):
         j = sum_rows[i]
         top5.append(j)
-        if(i == 4):
+        if i == 4:
             break
     return top5
 
 
+# Bottom five performer of class
 def bottom_five(k):
     bottom5 = []
     sum_rows = sum_of_row()
@@ -124,6 +131,6 @@ def bottom_five(k):
     for i in range(len(sum_rows)):
         j = sum_rows[i]
         bottom5.append(j)
-        if(i == 4):
+        if i == 4:
             break
     return bottom5
