@@ -47,6 +47,6 @@ Visit [Pages for Report -optional](using github.io option)
 
 \2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
 
-\3. [git inspector](https://github.com/ejwa/gitinspector.git) 
+\3. [git inspector]([![Unity - Unit Testing](https://github.com/99003616/AppliedSDLC_C2/actions/workflows/unity.yml/badge.svg)](https://github.com/99003616/AppliedSDLC_C2/actions/workflows/unity.yml)) 
 
 \4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
