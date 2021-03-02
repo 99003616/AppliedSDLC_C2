@@ -6,7 +6,7 @@ Visit [Pages for Report -optional](using github.io option)
 
 |Unity      |` `[Git Inspector](using github.io option)|
 | :- | :- |
-|[Unity - Unit Testing](Badgelink) |![Git Inspector][![Unity - Unit Testing](https://github.com/99003616/AppliedSDLC_C2/actions/workflows/unity.yml/badge.svg)](https://github.com/99003616/AppliedSDLC_C2/actions/workflows/unity.yml)|
+|[Unity - Unit Testing](Badgelink) [![Unity - Unit Testing](https://github.com/99003616/AppliedSDLC_C2/actions/workflows/unity.yml/badge.svg)](https://github.com/99003616/AppliedSDLC_C2/actions/workflows/unity.yml)|
 
 
 \## Folder Structure
