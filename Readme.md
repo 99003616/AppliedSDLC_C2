@@ -23,7 +23,7 @@ Visit [Pages for Report -optional](using github.io option)
 
 |PS No.    |`  `Name|Features   |Issuess Raised|Issues Resolved |No Test Cases|Test Case Pass|
 | :- | :- | :- | :- | :- | :- | :- |
-|99003608|Aakarsh Mehta  |<p>1.Radar Chart Generation  </p><p>2.Integration of code  3.Integration of Charts</p><p>4.Requirement Analysis(Hl & LL)</p><p>5. 4W1H </p>|` `No  |No  |4|4|
+|99003608|Aakarsh Mehta  |<p>1.Radar Chart Generation  </p><p>2.Integration of code </p> 3.Integration of Charts</p><p>4.Requirement Analysis(Hl & LL)</p><p>5. 4W1H </p>|` `No  |No  |4|4|
 |99003709|Digendra Sahu |<p>1.Analysis & Data Extraction</p><p>2.Low level Diagrams</p><p>3.Classes(Faculty) </p><p>4.Class Room Functions</p><p>5.Report Formatting </p>|` `Yes   |` `Yes   |4|4|
 |99003616|Yash Jhajharia|<p>1.Auto-Mailer Implemenation </p><p>2.High level Uml Diagrams </p><p>3.Top 5 in class method  </p><p>4.Bottom 5 in class method</p><p>5.Average functionality  </p><p>6.SWOT     </p><p>7.Student Class</p>|Yes|Yes|4|4|
 |99003654|Manzar Hussain|<p>1.Requirement (Hl & LL) </p><p>2.Feasiblity(Market & Technical)</p><p>3.My product Req </p><p>4.Functional & Non Functional</p><p>5.Test Plan(Hl & LL)</p><p>6.Unit Testing  </p>|No|No|4|4|
